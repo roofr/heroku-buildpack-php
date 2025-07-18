@@ -1,0 +1,16 @@
+name: heroku-buildpack-php
+id: ari:cloud:compass:cae0d514-f292-40d8-815c-0249fec1fbc8:component/175e9365-5bbc-42e2-ba7d-9bedeebe499c/9cf9b23b-7d15-45d2-a3a8-0a34e741b20f
+description: Heroku's classic buildpack for PHP applications.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/roofr/heroku-buildpack-php
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
